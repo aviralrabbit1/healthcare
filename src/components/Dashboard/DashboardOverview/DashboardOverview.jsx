@@ -4,10 +4,14 @@ import HealthStatusCards from './HealthStatusCards/HealthStatusCards';
 
 const DashboardOverview = () => {
   return (
-    <>
+    <div className="dashboardOverview">
       <AnatomySection />
-      <HealthStatusCards />
-    </>
+      <div className="healthCards">
+        <HealthStatusCards />
+        <HealthStatusCards />
+        <HealthStatusCards />
+      </div>
+    </div>
   )
 }
 

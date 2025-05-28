@@ -1,0 +1,23 @@
+@import url(../../../styles/variables.css);
+
+.dashboardOverview {
+  display: flex;
+}
+
+.healthCards {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-width: 100px;
+}
+
+@media screen and (max-width: 375px) {
+  .dashboardOverview {
+    flex-direction: column;
+  }
+
+  .healthCards {
+    width: 100%;
+  }
+  
+}

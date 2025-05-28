@@ -8,10 +8,13 @@
   
   /* Primary Colors */
   --white: #ffffff; /* White */
-  --secondary-white: #f0f8ff; /* Alice Blue */
-  --secondary-background: #f6faff; /* Alice Blue */
+  --primary-bg-light: #f6faff; /* Alice Blue */
+  --primary-bg-medium: #f0f8ff; /* Alice Blue */
+  --primary-bg-dark: #e5e7ee; /* Alice Blue */
   --info-background: #02dfef; /* Robin Egg Blue */
+  --secondary-bg: #3734a8; /* Cerulean Blue */
 
+  
   /* Appointment Accent Colors */
   --appointment-selected: #3734a8; /* Cerulean Blue */
   --appointment-normal: lavender; /* Lavender */
@@ -20,7 +23,6 @@
   --calendar-selected: #3734a8; /* Cerulean Blue */
   --calendar-normal: powderblue; /* Powder Blue */
 
-  color: turquoise;
   /* Health Status Colors */
   --health-bone: #ff7e66; /* Burnt Sienna */
   --health-teeth: turquoise; /* Turquoise */
@@ -28,7 +30,7 @@
   --progress-bar: #e5e7ee;
 
     /* Color Palette */
-  --outside-bg: aliceblue;
+  /* --outside-bg: aliceblue;
   --primary-bg-light: #f6faff;
   --primary-bg-medium: #f6faff;
   --primary-bg-dark: #e2ebf6;
@@ -42,12 +44,7 @@
   --gray-dark: #4d4d4d;
   --gray-light: #cfd8e4;
   --gray-mid: #97a5b5;
-  --calendar-blue: #e5ebfd;
-
-  
-  color: aliceblue;
-  background-color: var();
-
+  --calendar-blue: #e5ebfd; */
   
   /* Shadows */
   --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.06);

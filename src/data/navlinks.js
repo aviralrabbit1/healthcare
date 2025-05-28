@@ -1,4 +1,4 @@
-export const navLinks = [
+const navLinks = [
   {
     section: 'General',
     links: [
@@ -13,7 +13,7 @@ export const navLinks = [
     section: 'Tools',
     links: [
       { label: 'Chat', icon: '💬', path: '/chat' },
-      { label: 'Support', icon: '📞', path: '/support' },
+      { label: 'Support', icon: '🛠️', path: '/support' },
     ],
   },
   {
@@ -23,3 +23,5 @@ export const navLinks = [
     ],
   },
 ];
+
+export default navLinks;
